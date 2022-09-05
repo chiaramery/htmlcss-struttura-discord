@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Roboto', sans-serif;
+}
 
 /* HEADER */
 .container{
@@ -103,6 +105,7 @@ header{
 
 /* FOOTER */
 footer{
+    padding-top: 2em;
     min-height: 300px;
     background-color:rgb(35 39 42);
 }
@@ -116,35 +119,64 @@ footer{
 
 .footer-row .col {
     width: calc(100% / 3);
-    border: 1px dashed white;
-    background-color: lightseagreen;
+    background-color:rgb(35 39 42);
 }
 
 .footer-row .colo {
     width: calc(100% / 3);
     height: 300px;
-    border: 1px dashed black;
-    background-color: orangered;
+    background-color: rgb(35 39 42);
+}
+.footer-row .colo img{
+    height: 15px;
 }
 
 .white{
     margin-top: 1em;
     margin-bottom: 1em;
-    color: 2px white;
+    color:  white;
+}
+
+.celestino{
+    color:  rgb(116 140 216);
+}
+
+.icons i{
+    color: white;
+    padding-right: .6em;
+}
+
+.footer-row .col ul{
+    list-style-type: none;
+    align-items: flex-start;
+}
+
+.footer-row .col ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-row .col ul li {
+    padding-top: .8em;
 }
 
 /* Tab */
 .tab{
     margin: 0 auto;
     width: 70%;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     padding-top: .8em;
-    padding-bottom: .8em;
+    padding-bottom: 3em;
 }
 
-.tab span{
-    background-color: orangered;
+
+
+.button{
+    background-color: rgb(116 140 216);
+    color: white;
+    border-radius: 10px;
+    height: fit-content;
+    align-self: center;
     padding: .8em;
 }
