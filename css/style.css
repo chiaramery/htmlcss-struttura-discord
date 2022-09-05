@@ -10,14 +10,15 @@ html{
 
 /* HEADER */
 
-
+header{
+    background-image: url(../img/jumbo.png); 
+}
 .container{
     color: white;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/jumbo.png);
 }
 
 
@@ -118,7 +119,7 @@ html{
 }
 
 .bcg{
-    background-color: lightgray;
+    background-color:rgb(246 246 246);
 }
 /* /Sezione 4 */
 
