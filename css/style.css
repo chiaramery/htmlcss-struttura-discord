@@ -56,20 +56,47 @@ header{
     margin-bottom: 1em;
 }
 /* MAIN */
+
+/* Sezione 1 */
 .container1{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
+
 .bluebar{
-    flex-grow: calc(100% / ( 2 / 3 ) );
+    width: 45%;
+    padding: 20px;
+
+    /* DEBUG */
     min-height: 300px;
     background-color: lightskyblue;
 }
 
 .pinkbar{
-    flex-grow: calc(100% / ( 1 / 3 ) );
-    min-height: 300px; 
-    background-color: pink;
+    width: 25%;
+    padding: 20px;
+
+    /* DEBUG */
+    min-height: 300px;
+    background-color: lightpink;
 }
+/* /Sezione 1 */
+.rr{
+    flex-direction: row-reverse;
+}
+/* Sezione 2 */
+
+/* Sezione 4 */
+.squareg{
+    background-color: green;
+    width: 70%;
+    min-height: 600px;
+}
+.bcg{
+    background-color: lightgray;
+}
+/* /Sezione 4 */
