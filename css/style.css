@@ -9,17 +9,18 @@ html{
 }
 
 /* HEADER */
+
+
 .container{
     color: white;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/jumbo.png);
 }
 
-header{
-    background-color: darkcyan;
-}
+
 /* Navbar */
 .navbar{
     margin-top: .5em;
@@ -45,13 +46,9 @@ header{
 /* /Navbar */
 
 /* Jumbo */
-.jumbo{
-    background-color: darkblue;
-}
 .squarej{
     height: 300px;
     width: 60%;
-    background-color: rgb(203, 13, 152);
     margin-top: 1em;
     margin-bottom: 1em;
     display: flex;
@@ -78,19 +75,12 @@ header{
 .bluebar{
     width: 45%;
     padding: 20px;
-
-    /* DEBUG */
-    min-height: 300px;
-    background-color: lightskyblue; 
 } 
 
 .pinkbar{
     width: 25%;
     padding: 20px;
-
-    /* DEBUG */
-    min-height: 300px;
-    background-color: lightpink;
+    margin-left: 3em;
 }
 
 .pinkbar h2{
@@ -105,7 +95,6 @@ header{
 
 /* Sezione 4 */
 .squareg{
-    background-color: green;
     width: 70%;
     min-height: 600px;
     display: flex;
@@ -150,6 +139,7 @@ footer{
 .footer-row .col {
     width: calc(100% / 3);
     background-color:rgb(35 39 42);
+    margin-left: 1em;
 }
 
 .footer-row .colo {
@@ -193,6 +183,7 @@ hr{
    margin-top: 3em;
    margin-bottom: 3em;
 }
+
 /* Tab */
 .tab{
     margin: 0 auto;
@@ -203,7 +194,7 @@ hr{
     padding-bottom: 3em;
 }
 
-.tab span .registrati{
+.tab span {
     height: fit-content;
     align-self: center;
 
@@ -211,7 +202,6 @@ hr{
 /* /Tab */
 
 /* Button */
-
 .button{
     border-radius: 20px;
     padding: .6em;
