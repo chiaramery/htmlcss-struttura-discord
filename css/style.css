@@ -100,3 +100,51 @@ header{
     background-color: lightgray;
 }
 /* /Sezione 4 */
+
+/* FOOTER */
+footer{
+    min-height: 300px;
+    background-color:rgb(35 39 42);
+}
+
+.footer-row{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.footer-row .col {
+    width: calc(100% / 3);
+    border: 1px dashed white;
+    background-color: lightseagreen;
+}
+
+.footer-row .colo {
+    width: calc(100% / 3);
+    height: 300px;
+    border: 1px dashed black;
+    background-color: orangered;
+}
+
+.white{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: 2px white;
+}
+
+/* Tab */
+.tab{
+    margin: 0 auto;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+
+.tab span{
+    background-color: orangered;
+    padding: .2em;
+}
