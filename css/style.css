@@ -42,4 +42,17 @@ header{
     color: black;
     margin: .5em;
 }
+/* /Navbar */
+
+/* Jumbo */
+.jumbo{
+    background-color: darkblue;
+}
+.squarej{
+    height: 300px;
+    width: 60%;
+    background-color: rgb(203, 13, 152);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 /* MAIN */
