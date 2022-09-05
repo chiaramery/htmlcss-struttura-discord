@@ -4,7 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Whitney-Semibold', sans-serif;
+}
 
 /* HEADER */
 .container{
@@ -22,7 +24,7 @@ header{
     margin-top: .5em;
     background-color: darkgoldenrod;
     width: 70%;
-    padding: .5em;
+    padding: .8em;
     max-width: 1200px;
     margin-bottom: .7em;
 }
@@ -146,5 +148,5 @@ footer{
 
 .tab span{
     background-color: orangered;
-    padding: .2em;
+    padding: .8em;
 }
