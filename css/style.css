@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: Whitney, Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 
-/* HEADER */
 
+/* HEADER */
 header{
     background-image: url(../img/jumbo.png); 
 }
@@ -20,7 +21,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 
 /* Navbar */
 .navbar{
@@ -42,6 +42,7 @@ header{
     text-decoration: none;
     color: white;
     margin: .5em;
+    text-align: center;
 }
 
 /* /Navbar */
@@ -204,10 +205,11 @@ hr{
 
 /* Button */
 .button{
+    display: inline-block;
     border-radius: 20px;
-    padding: .6em;
+    padding: .6em 1em;
     display: flex;
-    justify-content: center;
+    line-height: normal;
 }
 .bc{
     background-color: rgb(116 140 216);
